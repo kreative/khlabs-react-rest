@@ -38,6 +38,8 @@ const Index = () => {
             <button
               onClick={() => {
                 setFavoriteFacts([...favoriteFacts, catFact]);
+
+                setCatFacts(catFacts.filter((fact) => fact !== catFact))
               }}>
               Favorite
             </button>
@@ -55,8 +57,10 @@ const Index = () => {
             <button
               onClick={() => {
                 setFavoriteFacts(
-                  favoriteFacts.filter((catFact) => catFact !== favoriteFact),
+                  favoriteFacts.filter((fact) => fact !== favoriteFact),
                 );
+
+                setCatFacts([...catFacts, favoriteFact]);
               }}>
               Unfavorite
             </button>
