@@ -5,11 +5,11 @@ const Index = () => {
 
   return (
     <>
-      <h1>Favorite Cat Facts</h1>
+      <h1>Cat Facts</h1>
 
       <ul></ul>
 
-      <h1>Cat Facts</h1>
+      <h1>Favorite Cat Facts</h1>
 
       <ul></ul>
     </>

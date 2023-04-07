@@ -28,7 +28,7 @@ const Index = () => {
 
   return (
     <>
-      <h1>Favorite Cat Facts</h1>
+      <h1>Cat Facts</h1>
 
       <ul>
         {catFacts.map((catFact) => (
@@ -47,7 +47,7 @@ const Index = () => {
         ))}
       </ul>
 
-      <h1>Cat Facts</h1>
+      <h1>Favorite Cat Facts</h1>
 
       <ul>
         {favoriteFacts.map((favoriteFact) => (
