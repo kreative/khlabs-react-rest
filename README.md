@@ -69,8 +69,9 @@ npm run dev
 
 If you're curious in learning more, I reckon you look into [Node.js](https://nodejs.org/en/about), the React framework [NextJS](https://nextjs.org/), [Turborepo](https://turbo.build/repo), and [Dev Containers](https://containers.dev/). Fun fact: these are all technologies you used today, you just didn't know it!
 
-Moreover, if you have specific questions about what we did today, feel free to reach out to our workshop author [Ryan Huellen](mailto:rhuellen@iastate.edu).
+Moreover, if you have specific questions about what we did today, feel free to reach out to our workshop author [Ryan Huellen](mailto:rhuellen@iastate.edu) or hackathon organizer [Armaan Gupta](https://www.github.com/guppy57). Also, check out [Kreative Horizon](https://kreativehorizon.com/).
 
 ## Authors
 
 - [Ryan Huellen](https://www.github.com/ryanhaticus)
+- [Armaan Gupta](https://www.github.com/guppy57)
