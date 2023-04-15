@@ -7,11 +7,7 @@ Welcome to the React and REST workshop, where we'll learn how to create a simple
 1. Prerequisites
 2. Opening the Project in GitHub Codespaces
 3. Running Your Development Environment
-4. Hot Reloading
-5. Fetching Cat Facts
-6. Displaying Cat Facts
-7. Favoriting Cat Facts
-8. Final Thoughts
+4. Final Thoughts
 
 ## Prerequisites
 
@@ -44,26 +40,6 @@ npm run dev
 2. To see this in action, re-open codespaces and navigate to the file `/apps/initial/pages/index.tsx`. This is the core of your React application.
 
 3. Try changing the text! When you're done, hit CTRL + S (this saves the current file). Then, return to your web page and observe your awesome changes!
-
-## Fetching Cat Facts
-
-1. Now that we've familiarized ourselves a little bit with our environment, lets get down to business! First things first, we want to display cat facts... so where are we going to get that data?
-
-2. If you guessed an API, you'd be correct! Today, we'll be using the [Cat Facts API](https://catfact.ninja/facts) provided by [Swagger](https://swagger.io/). Don't be shy, click the [Cat Facts API](https://catfact.ninja/facts) link to get a first hand look at the data model we'll be working with!
-
-3. It's important to note, our data comes in the [JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON) format. If you aren't familiar, here's a short explanation: JSON is a format for structuring data. There are three main components of the JSON structure: objects, arrays, and primitives (like strings, numbers, and booleans). Here's a detailed example of each:
-
-```json
-{
-  // An object literal. This contains key: value pairs.
-  "myFirstArray": [1, "my first string", true], // An array with three primitive types
-  "myFavoriteNumber": 1, // A number primitive
-  "myFavoriteString": "my favorite string", // A string primitive
-  "myFavoriteBoolean": true // A boolean primitive
-}
-```
-
-4. Now, let's jump back into our code!
 
 ## Final Thoughts
 
